@@ -63,8 +63,7 @@ copyright { display: block; }
 
 table {
   width: 100%;
-  border-collapse: collapse; /* removes double borders */
-  margin: 16px 0;
+  border-collapse: collapse; 
   font-family: system-ui, sans-serif;
   font-size: 14px;
 }
@@ -76,26 +75,26 @@ th, td {
 }
 
 th {
-  background-color: #4CAF50; /* green header */
+  background-color: #4CAF50; 
   color: white;
 }
 
 tr:nth-child(even) {
-  background-color: #f9f9f9; /* zebra stripes */
+  background-color: #f9f9f9; 
 }
 
 tr:hover {
-  background-color: #ffeaa7; /* highlight on hover */
+  background-color: #ffeaa7; 
   transition: 0.3s;
 }
 
 
 
 img {
-  max-width: 100%;   /* scales down on small screens */
-  height: auto;      /* keeps proportions */
+  max-width: 100%;   
+  height: auto;      
   display: block;
-  margin: 0 auto;    /* centers */
+  margin: 0 auto;    
 }
 
 .video-container {
